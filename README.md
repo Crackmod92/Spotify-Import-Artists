@@ -1,22 +1,22 @@
 # Spotify-Import-Artists
-Описание (Description):
 
 Русский:
-
+---
 Данный скрипт позволяет пользователю автоматически подписываться на артистов в сервисе Spotify по списку, указанному в текстовом файле. 
-Скрипт использует библиотеку Spotipy для взаимодействия с API Spotify. После указания учетных данных и списка артистов в файле, скрипт просматривает каждого артиста в списке, выполняет поиск в Spotify и подписывается на найденных артистов. 
+Скрипт использует библиотеку Spotipy для взаимодействия с API Spotify. 
+После указания учетных данных и списка артистов в файле, скрипт просматривает каждого артиста в списке, выполняет поиск в Spotify и подписывается на найденных артистов. 
 Если артист не найден, он добавляется в отдельный файл для последующей проверки.
 
 English:
-
+---
 This script allows users to automatically follow artists on Spotify based on a list provided in a text file. 
 The script utilizes the Spotipy library to interact with the Spotify API. After specifying the credentials and the list of artists in the file, the script iterates through each artist in the list, performs a search on Spotify, and follows the found artists. 
 If an artist is not found, it is added to a separate file for further review.
 
-Инструкция (Instructions):
+# Инструкция (Instructions):
 
 Русский:
-
+---
 1. Установите библиотеку Spotipy, используя ***pip install spotipy***.
 2. Запустите скрипт и убедитесь, что у вас есть учетные данные для доступа к API Spotify.
 3. Получите свой CLIENT_ID и CLIENT_SECRET на панели управления разработчика Spotify (https://developer.spotify.com/dashboard).
@@ -26,7 +26,7 @@ If an artist is not found, it is added to a separate file for further review.
 7. По завершении работы скрипта вы получите уведомление об успешном добавлении всех артистов или о тех, которые не были найдены.
 
 English:
-
+---
 1. Install the Spotipy library using ***pip install spotipy***.
 2. Run the script and make sure you have credentials for accessing the Spotify API.
 3. Obtain your CLIENT_ID and CLIENT_SECRET from the Spotify Developer Dashboard (https://developer.spotify.com/dashboard).
