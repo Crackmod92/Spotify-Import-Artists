@@ -3,11 +3,15 @@
 
 Русский:
 
-Данный скрипт позволяет пользователю автоматически подписываться на артистов в сервисе Spotify по списку, указанному в текстовом файле. Скрипт использует библиотеку Spotipy для взаимодействия с API Spotify. После указания учетных данных и списка артистов в файле, скрипт просматривает каждого артиста в списке, выполняет поиск в Spotify и подписывается на найденных артистов. Если артист не найден, он добавляется в отдельный файл для последующей проверки.
+Данный скрипт позволяет пользователю автоматически подписываться на артистов в сервисе Spotify по списку, указанному в текстовом файле. 
+Скрипт использует библиотеку Spotipy для взаимодействия с API Spotify. После указания учетных данных и списка артистов в файле, скрипт просматривает каждого артиста в списке, выполняет поиск в Spotify и подписывается на найденных артистов. 
+Если артист не найден, он добавляется в отдельный файл для последующей проверки.
 
 English:
 
-This script allows users to automatically follow artists on Spotify based on a list provided in a text file. The script utilizes the Spotipy library to interact with the Spotify API. After specifying the credentials and the list of artists in the file, the script iterates through each artist in the list, performs a search on Spotify, and follows the found artists. If an artist is not found, it is added to a separate file for further review.
+This script allows users to automatically follow artists on Spotify based on a list provided in a text file. 
+The script utilizes the Spotipy library to interact with the Spotify API. After specifying the credentials and the list of artists in the file, the script iterates through each artist in the list, performs a search on Spotify, and follows the found artists. 
+If an artist is not found, it is added to a separate file for further review.
 
 Инструкция (Instructions):
 
@@ -23,11 +27,10 @@ This script allows users to automatically follow artists on Spotify based on a l
 
 English:
 
-Install the Spotipy library using pip install spotipy.
-Run the script and make sure you have credentials for accessing the Spotify API.
-Obtain your CLIENT_ID and CLIENT_SECRET from the Spotify Developer Dashboard (https://developer.spotify.com/dashboard).
-Specify the path to the text file containing the list of artists (file_path).
-Specify the REDIRECT_URI in the script.
-REDIRECT_URI is the URL where Spotify will redirect the user after authorization. You can set it to any valid URL. For local development, you can use 'http://localhost:8080/login'.
-Run the script; it will authenticate with Spotify and begin adding artists to your follows.
-Once the script finishes, you will receive a notification indicating successful addition of all artists or those that were not found.
+1. Install the Spotipy library using pip install spotipy.
+2. Run the script and make sure you have credentials for accessing the Spotify API.
+3. Obtain your CLIENT_ID and CLIENT_SECRET from the Spotify Developer Dashboard (https://developer.spotify.com/dashboard).
+4. Specify the path to the text file containing the list of artists (file_path).
+5. Specify the REDIRECT_URI in the script. REDIRECT_URI is the URL where Spotify will redirect the user after authorization. You can set it to any valid URL. For local development, you can use 'http://localhost:8080/login'.
+6. Run the script; it will authenticate with Spotify and begin adding artists to your follows.
+7. Once the script finishes, you will receive a notification indicating successful addition of all artists or those that were not found.
