@@ -17,7 +17,7 @@ If an artist is not found, it is added to a separate file for further review.
 
 Русский:
 
-1. Установите библиотеку Spotipy, используя pip install spotipy.
+1. Установите библиотеку Spotipy, используя ***pip install spotipy***.
 2. Запустите скрипт и убедитесь, что у вас есть учетные данные для доступа к API Spotify.
 3. Получите свой CLIENT_ID и CLIENT_SECRET на панели управления разработчика Spotify (https://developer.spotify.com/dashboard).
 4. Укажите путь к текстовому файлу, содержащему список артистов (file_path).
@@ -27,7 +27,7 @@ If an artist is not found, it is added to a separate file for further review.
 
 English:
 
-1. Install the Spotipy library using pip install spotipy.
+1. Install the Spotipy library using ***pip install spotipy***.
 2. Run the script and make sure you have credentials for accessing the Spotify API.
 3. Obtain your CLIENT_ID and CLIENT_SECRET from the Spotify Developer Dashboard (https://developer.spotify.com/dashboard).
 4. Specify the path to the text file containing the list of artists (file_path).
