@@ -14,15 +14,21 @@ This script allows users to automatically follow artists on Spotify based on a l
 Русский:
 
 Установите библиотеку Spotipy, используя pip install spotipy.
-Запустите скрипт и убедитесь, что у вас есть учетные данные для доступа к API Spotify (CLIENT_ID и CLIENT_SECRET).
+Запустите скрипт и убедитесь, что у вас есть учетные данные для доступа к API Spotify.
+Получите свой CLIENT_ID и CLIENT_SECRET на панели управления разработчика Spotify (https://developer.spotify.com/dashboard).
 Укажите путь к текстовому файлу, содержащему список артистов (file_path).
-Запустите скрипт, он выполнит авторизацию в Spotify и начнет добавление артистов в подписки.
+Укажите REDIRECT_URI в скрипте.
+REDIRECT_URI - это URL, на который Spotify перенаправит пользователя после авторизации. Вы можете установить его на любой допустимый URL. Для локальной разработки вы можете использовать 'http://localhost:8080/login'.
+Запустите скрипт; он выполнит аутентификацию в Spotify и начнет добавление артистов в ваши подписки.
 По завершении работы скрипта вы получите уведомление об успешном добавлении всех артистов или о тех, которые не были найдены.
 
 English:
 
 Install the Spotipy library using pip install spotipy.
-Run the script and make sure you have credentials for accessing the Spotify API (CLIENT_ID and CLIENT_SECRET).
+Run the script and make sure you have credentials for accessing the Spotify API.
+Obtain your CLIENT_ID and CLIENT_SECRET from the Spotify Developer Dashboard (https://developer.spotify.com/dashboard).
 Specify the path to the text file containing the list of artists (file_path).
+Specify the REDIRECT_URI in the script.
+REDIRECT_URI is the URL where Spotify will redirect the user after authorization. You can set it to any valid URL. For local development, you can use 'http://localhost:8080/login'.
 Run the script; it will authenticate with Spotify and begin adding artists to your follows.
 Once the script finishes, you will receive a notification indicating successful addition of all artists or those that were not found.
