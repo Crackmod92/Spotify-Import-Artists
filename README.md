@@ -26,7 +26,7 @@ All actions are performed in any text editor (for example, Notepad++) and CMD.
 3. Получите свой CLIENT_ID и CLIENT_SECRET на панели управления разработчика Spotify (https://developer.spotify.com/dashboard).
 4. Укажите путь к текстовому файлу, содержащему список артистов (file_path).
 5. Укажите REDIRECT_URI в скрипте. REDIRECT_URI - это URL, на который Spotify перенаправит пользователя после авторизации. Вы можете установить его на любой допустимый URL. Для локальной разработки вы можете использовать 'http://localhost:8080/login'.
-6. Запустите скрипт; он выполнит аутентификацию в Spotify и начнет добавление артистов в ваши подписки.
+6. Запустите скрипт `py spotify_import.py`; он выполнит аутентификацию в Spotify и начнет добавление артистов в ваши подписки.
 7. По завершении работы скрипта вы получите уведомление об успешном добавлении всех артистов или о тех, которые не были найдены.
 
 English:
@@ -36,5 +36,5 @@ English:
 3. Obtain your CLIENT_ID and CLIENT_SECRET from the Spotify Developer Dashboard (https://developer.spotify.com/dashboard).
 4. Specify the path to the text file containing the list of artists (file_path).
 5. Specify the REDIRECT_URI in the script. REDIRECT_URI is the URL where Spotify will redirect the user after authorization. You can set it to any valid URL. For local development, you can use 'http://localhost:8080/login'.
-6. Run the script; it will authenticate with Spotify and begin adding artists to your follows.
+6. Run the script `py spotify_import.py`; it will authenticate with Spotify and begin adding artists to your follows.
 7. Once the script finishes, you will receive a notification indicating successful addition of all artists or those that were not found.
